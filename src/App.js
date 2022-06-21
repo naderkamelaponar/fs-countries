@@ -18,6 +18,7 @@ return (
   <input value={filter} onChange={e=>setFilter(e.target.value)} placeholder='Filter the countries'/>
   
 <CountryLine countries={countries}/>
+<footer><a href="https://github.com/naderkamelaponar/fs-countries">Repo</a> </footer>
   </>
 )
 }
